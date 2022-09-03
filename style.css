@@ -1,0 +1,39 @@
+:root {
+    --btn-color: rgb(108, 99, 255);
+    --btn-padding: 10px 20px;
+    --box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4);
+  }
+  h4 {
+    color: rgb(15, 1, 1, 0.6);
+  }
+  .item {
+    text-align: center;
+  }
+  .navigation {
+    display: flex;
+    justify-content: center;
+  }
+  .contact-btn {
+    border: 1px solid var(--btn-color);
+    color: var(--btn-color);
+    text-align: center;
+    padding: var(--btn-padding);
+    box-shadow: var(--box-shadow);
+    border-radius: 4px;
+    margin: 20px;
+  }
+  .about-me-btn {
+    border: 1px solid var(--btn-color);
+    background-color: var(--btn-color);
+    color: whitesmoke;
+    text-align: center;
+    padding: var(--btn-padding);
+    box-shadow: var(--box-shadow);
+    border-radius: 4px;
+    margin: 20px;
+  }
+  .navigation-bar {
+    position: sticky;
+    top: 0;
+  }
+  
